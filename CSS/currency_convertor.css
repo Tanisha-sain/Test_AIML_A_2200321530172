@@ -5,7 +5,7 @@
     font-family: monospace;
 }
 .outer{
-    background-color: antiquewhite;
+    background-color: #E0FFFF;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -19,14 +19,13 @@
     border: none;
     border-radius: 15px;
     padding: 15px 35px;
-}
+    box-shadow: 0 4px 8px 0 rgba(170, 223, 230, 0.2), 0 6px 20px 0 rgba(151, 215, 224, 0.19);}
 h1{
-    color: cadetblue;
+    color: #5F9EA0;
     text-align: center;
     font-size: 30px;
     margin: 10px;
     margin-bottom: 40px;
-    text-decoration: underline;
 }
 .input{
     width: 100%;
@@ -49,9 +48,15 @@ h1{
 }
 button{
     padding: 7px 20px;
-    background-color: cadetblue;
+    background-color: #5F9EA0;
     color: white;
     border-radius: 20px;
     border: none;
-    font-size: 20px;
+    font-size: 23px;
+}
+button:hover{
+    background-color: #62adaf;
+}
+button:active{
+    background-color: #3b9da1;
 }
