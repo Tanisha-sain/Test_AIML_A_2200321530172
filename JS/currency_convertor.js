@@ -18,7 +18,8 @@ button.addEventListener('click', () => {
     .then((res) => {
         console.log(res.rates[currTo])
         rate = res.rates[currTo];
-        const value = amount*rate;
+        let value = amount*rate;
+        value = Math.round(value*100)/100;
         convertOutput.value = value;
     })
     .catch((err) => {
