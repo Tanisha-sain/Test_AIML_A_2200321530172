@@ -10,12 +10,48 @@
 }
 .header{
     width: 100%;
-    height: fit-content;
+    height: 15%;
     font-size: 30px;
     text-align: center;
     padding: 20px 0;
-    background-color: cadetblue;
+    background-color: #4682B4;
+    color: white;
 }
 .main{
-    
+    display: flex;
+    height: 75%;
+}
+.main .left{
+    width: 12%;
+    height: 100%;
+    background-color: #E0FFFF;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid #4682B4;
+}
+
+.main .left a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #4682B4;
+    font-weight: bold;
+}
+.main .left a:hover{
+    font-size: 24px;
+}
+.main .left a:active{
+    color: #3178b3;
+}
+.main .right{
+    width: 88%;
+    height: 100%;
+    border: 1px solid #4682B4;
+}
+footer{
+    background-color: #4682B4;
+    height: 10%;
+    font-size: 35px;
+    text-align: center;
+    padding: 13px;
+    color: white;
 }
